@@ -2,7 +2,7 @@
     "base_url": "https://www.instagram.com",
     "username": "user_login",
     "password": "user_password",
-    "post_url": "https://www.instagram.com/p/CGQmKWigacb/",
+    "post_url": "post_url",
     "settings": {
       "run_every_x_hours": 3,
       "like_ratio": 0.75,

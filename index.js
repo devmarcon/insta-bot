@@ -12,8 +12,6 @@ const run = async () => {
 
   await bot.visitUrlAndComment().then(() => console.log("VISITED URL"));
 
-  //   await bot.unFollowUsers();
-
   await bot.closeBrowser().then(() => console.log("BROWSER CLOSED"));
 
   const endTime = Date();
@@ -22,5 +20,3 @@ const run = async () => {
 };
 
 run().catch((e) => console.log(e.message));
-//run bot at certain interval we have set in our config file
-setInterval(run, config.settings.run_every_x_hours * 3600000);
